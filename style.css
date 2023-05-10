@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 253, 226);
+    font-size: 25px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    background-color: aqua;
+    position: fixed;
+    overflow: auto;
+}
+Li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(36, 36, 131);
+    font-size: 25px;
+}
+.content {
+    margin-left: 15%;
+    padding: 1px 20px;
+}
+.active {
+    background-color: rgb(227, 200, 252);
+    color: blueviolet;
+    font-size: 25px;
+}
+Li a:hover:not(.active) {
+    background-color: violet;
+    color: rgb(134, 87, 134);
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin: 0;
+}
+.image {
+    width: 40%;
+}
+.image img {
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+}
+figcaption {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+dl {
+    background-color: yellow;
+}
+.img {
+    height: 200px;
+    width: 300px;
+}
+.img figcaption {
+    font-size: 18px;
+    text-align: center;
+}
+.info {
+    text-align: right;
+}
+#id-color {
+    color: red;
+}
+.color {
+    color: blue;
+}
+.color-group {
+    color: red;
+}
+.Img-1 {
+   display: flex;
+   justify-content: center;
+   padding-top: 12px;
+}
+.gallery {
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery img {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+}
+.Gallery-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Gallery-2 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+.kyiv {
+    display: flex;
+    justify-content: flex-start;
+}
+.history {
+    display: flex;
+    justify-content: center;
+}
+.history img {
+    width: 500px;
+    height: 400px;
+    padding: 8px;
+}
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    height: 35px;
+}
+td, th {
+    border: 1px blue dashed;
+}
+#primary {
+    text-align: center;
+    color: orangered;
+    font-size: 31px;
+}
